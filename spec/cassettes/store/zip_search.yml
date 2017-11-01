@@ -1,0 +1,149 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bestbuy.com/v1/stores((area(80202,25)))?apiKey=a8k7nnexb87aa9hb3zzqbgf7&format=json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.13.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, accept
+      Access-Control-Allow-Methods:
+      - GET
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Max-Age:
+      - '3628800'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 01 Nov 2017 17:26:16 GMT
+      Server:
+      - Best Buy Public APIs
+      X-Cache-Hit:
+      - 'true'
+      Content-Length:
+      - '10393'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":10,"currentPage":1,"total":17,"totalPages":2,"queryTime":"0.008","totalTime":"0.027","partial":false,"canonicalUrl":"/v1/stores((area(\"80202\",25)))?format=json&apiKey=a8k7nnexb87aa9hb3zzqbgf7","stores":[{"storeId":2740,"storeType":"Mobile
+        SAS","tradeIn":null,"name":"CHERRY CREEK MALL","longName":"Cherry Creek Shopping
+        Center","address":"3000 East First Ave","address2":"Ste 296","city":"Denver","region":"CO","fullPostalCode":"80206-5637","country":"US","lat":39.72,"lng":-104.95,"hours":"Sun:
+        11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Trade-In"}],"phone":"303-270-9189","postalCode":"80206","distance":3.45},{"storeId":1224,"storeType":"Big
+        Box","tradeIn":null,"name":"BELMAR CO","longName":"Belmar","address":"384
+        S Wadsworth Blvd","address2":"","city":"Lakewood","region":"CO","fullPostalCode":"80226-3102","country":"US","lat":39.71,"lng":-105.08,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Geek
+        Squad Services"},{"service":"Car and GPS Install Services"},{"service":"Microsoft
+        Windows Store"},{"service":"Samsung Entertainment Experience"},{"service":"Samsung
+        Experience"},{"service":"Trade-In"}],"phone":"303-742-8039","postalCode":"80226","distance":5.31},{"storeId":211,"storeType":"Big
+        Box","tradeIn":null,"name":"COLORADO BLVD CO","longName":"Colorado Blvd","address":"4100
+        E Mexico Ave","address2":"Ste A","city":"Denver","region":"CO","fullPostalCode":"80222-4100","country":"US","lat":39.69,"lng":-104.94,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Apple
+        Authorized Service Provider"},{"service":"Apple Shop"},{"service":"Camera
+        Experience Shop"},{"service":"Geek Squad Services"},{"service":"Car and GPS
+        Install Services"},{"service":"LG Experience"},{"service":"Magnolia Home Theater"},{"service":"Microsoft
+        Windows Store"},{"service":"Pacific Kitchen and Home Inside Best Buy"},{"service":"Samsung
+        Entertainment Experience"},{"service":"Sony Experience"},{"service":"Trade-In"},{"service":"Vivint
+        Smart Home Experience"}],"phone":"303-758-5805","postalCode":"80222","distance":5.59},{"storeId":382,"storeType":"Big
+        Box","tradeIn":null,"name":"DENVER WEST CO","longName":"Denver West","address":"1400
+        Denver West Blvd","address2":"","city":"Lakewood","region":"CO","fullPostalCode":"80401-3222","country":"US","lat":39.74,"lng":-105.15,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Apple
+        Shop"},{"service":"Geek Squad Services"},{"service":"Car and GPS Install Services"},{"service":"LG
+        Experience"},{"service":"Magnolia Home Theater"},{"service":"Microsoft Windows
+        Store"},{"service":"Samsung Entertainment Experience"},{"service":"Samsung
+        Open House"},{"service":"Trade-In"},{"service":"Vivint Smart Home Experience"}],"phone":"303-273-5617","postalCode":"80401","distance":8.39},{"storeId":209,"storeType":"Big
+        Box","tradeIn":null,"name":"WESTMINSTER CO","longName":"Westminster","address":"9369
+        Sheridan Blvd","address2":"Wesfield Village Center","city":"Westminster","region":"CO","fullPostalCode":"80031-6531","country":"US","lat":39.87,"lng":-105.06,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat:
+        10-10","hoursAmPm":"Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm;
+        Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm; Sun: 10am-8pm; Mon: 10am-9pm;
+        Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm","gmtOffset":-6,"services":[{"service":"Apple
+        Authorized Service Provider"},{"service":"Alienware Experience Shop"},{"service":"Apple
+        Shop"},{"service":"Geek Squad Services"},{"service":"Car and GPS Install Services"},{"service":"LG
+        Experience"},{"service":"Magnolia Home Theater"},{"service":"Microsoft Windows
+        Store"},{"service":"Pacific Kitchen and Home Inside Best Buy"},{"service":"Samsung
+        Entertainment Experience"},{"service":"Sony Experience"},{"service":"Trade-In"},{"service":"Vivint
+        Smart Home Experience"}],"phone":"303-426-4434","postalCode":"80031","distance":8.52},{"storeId":1416,"storeType":"Big
+        Box","tradeIn":null,"name":"NORTHGLENN CO","longName":"Northglenn","address":"104
+        W 104th Ave","address2":"","city":"Denver","region":"CO","fullPostalCode":"80234-4102","country":"US","lat":39.88,"lng":-104.99,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat: 10-10;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-10; Sat:
+        10-10","hoursAmPm":"Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm;
+        Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm; Sun: 10am-8pm; Mon: 10am-9pm;
+        Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-10pm; Sat: 10am-10pm","gmtOffset":-6,"services":[{"service":"Apple
+        Authorized Service Provider"},{"service":"Apple Shop"},{"service":"Geek Squad
+        Services"},{"service":"Car and GPS Install Services"},{"service":"LG Experience"},{"service":"Microsoft
+        Windows Store"},{"service":"Samsung Entertainment Experience"},{"service":"Samsung
+        Experience"},{"service":"Sony Experience"},{"service":"Trade-In"}],"phone":"303-252-8677","postalCode":"80234","distance":9.14},{"storeId":2730,"storeType":"Mobile
+        SAS","tradeIn":null,"name":"TOWN CENTER AURORA","longName":"Town Center at
+        Aurora","address":"14200 E Alameda Ave","address2":"Spc #2011","city":"Aurora","region":"CO","fullPostalCode":"80012-2508","country":"US","lat":39.71,"lng":-104.82,"hours":"Sun:
+        11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Trade-In"}],"phone":"303-326-0848","postalCode":"80012","distance":9.73},{"storeId":217,"storeType":"Big
+        Box","tradeIn":null,"name":"AURORA CO","longName":"Aurora","address":"13801
+        E Mississippi Ave","address2":"","city":"Aurora","region":"CO","fullPostalCode":"80012-3691","country":"US","lat":39.70,"lng":-104.83,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Geek
+        Squad Services"},{"service":"Car and GPS Install Services"},{"service":"LG
+        Experience"},{"service":"Microsoft Windows Store"},{"service":"Samsung Entertainment
+        Experience"},{"service":"Sony Experience"},{"service":"Samsung Open House"},{"service":"Trade-In"},{"service":"Vivint
+        Smart Home Experience"}],"phone":"303-338-5797","postalCode":"80012","distance":9.79},{"storeId":210,"storeType":"Big
+        Box","tradeIn":null,"name":"LITTLETON CO","longName":"Littleton","address":"5395
+        S Wadsworth Blvd","address2":"","city":"Lakewood","region":"CO","fullPostalCode":"80123-2229","country":"US","lat":39.62,"lng":-105.09,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Geek
+        Squad Services"},{"service":"Car and GPS Install Services"},{"service":"LG
+        Experience"},{"service":"Magnolia Design Center"},{"service":"Microsoft Windows
+        Store"},{"service":"Samsung Entertainment Experience"},{"service":"Sony Experience"},{"service":"Trade-In"},{"service":"Vivint
+        Smart Home Experience"}],"phone":"303-932-7830","postalCode":"80123","distance":10.44},{"storeId":1171,"storeType":"Big
+        Box","tradeIn":null,"name":"SOUTHGLENN CO","longName":"Southglenn","address":"6707
+        S Vine St","address2":"Ste D","city":"Centennial","region":"CO","fullPostalCode":"80122-3171","country":"US","lat":39.59,"lng":-104.97,"hours":"Sun:
+        10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9;
+        Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9","hoursAmPm":"Sun:
+        10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri:
+        10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed:
+        10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm","gmtOffset":-6,"services":[{"service":"Apple
+        Shop"},{"service":"Geek Squad Services"},{"service":"Car and GPS Install Services"},{"service":"Trade-In"}],"phone":"303-797-3246","postalCode":"80122","distance":11.02}],"warnings":"Distances
+        are in terms of miles (default)"}'
+    http_version: 
+  recorded_at: Wed, 01 Nov 2017 17:25:58 GMT
+recorded_with: VCR 3.0.3

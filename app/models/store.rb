@@ -12,6 +12,8 @@ class Store < ActiveRecord::Base
   end
 
   def self.zip_search(zipcode)
+    json_stores = BestbuyService.stores_by_zip(zipcode)
+
     response = Faraday.get("https://api.bestbuy.com/v1/stores((area(#{zipcode},25)))?apiKey=#{ENV['bestbuy_api_key']}&format=json")
     json_stores = JSON.parse(response.body, symbolize_names: true)[:stores]
     json_stores.map do |store|
