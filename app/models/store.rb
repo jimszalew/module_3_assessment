@@ -1,5 +1,4 @@
-class Store < ActiveRecord::Base
-  validates_presence_of :long_name, :city, :distance, :phone
+class Store
 
   attr_reader :long_name,
               :city,
