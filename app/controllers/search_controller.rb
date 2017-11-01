@@ -5,8 +5,7 @@ class SearchController < ApplicationController
     json_stores = JSON.parse(response.body, symbolize_names: true)
     @total = json_stores[:total]
     @stores = json_stores[:stores].each do |store|
-      Store.new(store)
+      Store.create(long_name: store[:longName], city: store[:city], distance: store[:distance], phone: store[:phone])
     end
-    require "pry"; binding.pry
   end
 end

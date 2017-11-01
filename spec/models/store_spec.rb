@@ -1,5 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe Store, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it { should validate_presence_of(:long_name) }
+  it { should validate_presence_of(:city) }
+  it { should validate_presence_of(:distance) }
+  it { should validate_presence_of(:phone) }
 end
