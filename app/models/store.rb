@@ -1,5 +1,4 @@
-class Store
-
+class Store < ActiveRecord::Base
   attr_reader :long_name,
               :city,
               :distance,
@@ -10,5 +9,9 @@ class Store
     @city      = store_info[:city]
     @distance  = store_info[:distance]
     @phone     = store_info[:phone]
+  end
+
+  def self.zip_search(zipcode)
+    
   end
 end
